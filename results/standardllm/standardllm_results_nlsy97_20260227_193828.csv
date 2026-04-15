@@ -1,0 +1,2094 @@
+model_name,prompt_type,case_id,repeat_id,dataset,ground_truth,prediction,confidence,is_correct,response_time_sec,prompt_tokens,completion_tokens,total_tokens,raw_response,error,timestamp
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,83,0,y_arrestedafter2002,False,NO,85.0,True,0.6327359676361084,246,17,263,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:39.105143
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,53,0,y_arrestedafter2002,False,YES,85.0,False,0.8020920753479004,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:39.738206
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,70,0,y_arrestedafter2002,False,YES,82.0,False,1.7725279331207275,248,17,265,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:40.540468
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,45,0,y_arrestedafter2002,True,YES,82.0,True,0.5086221694946289,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:42.313396
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,44,0,y_arrestedafter2002,False,NO,42.0,True,0.6101100444793701,248,17,265,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}",,2026-02-27T19:32:42.822351
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,39,0,y_arrestedafter2002,False,YES,82.0,False,0.5238637924194336,258,17,275,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:43.432893
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,22,0,y_arrestedafter2002,False,YES,87.0,False,0.5396931171417236,252,17,269,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:32:43.957378
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,80,0,y_arrestedafter2002,False,YES,85.0,False,0.5109670162200928,247,17,264,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:44.497502
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,10,0,y_arrestedafter2002,False,YES,82.0,False,0.8511049747467041,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:45.008759
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,0,0,y_arrestedafter2002,True,YES,85.0,True,0.8959081172943115,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:45.861739
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,18,0,y_arrestedafter2002,False,,,,0.7641699314117432,248,8,256,I can't fulfill that request.,,2026-02-27T19:32:46.758228
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,30,0,y_arrestedafter2002,True,YES,82.0,True,1.2990179061889648,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:47.523455
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,73,0,y_arrestedafter2002,False,YES,82.0,False,1.1290111541748047,241,17,258,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:48.822773
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,33,0,y_arrestedafter2002,False,YES,85.0,False,0.5161099433898926,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:49.952444
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,90,0,y_arrestedafter2002,False,YES,85.0,False,0.6270349025726318,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:50.469101
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,4,0,y_arrestedafter2002,False,YES,85.0,False,0.5109810829162598,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:32:51.097087
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,76,0,y_arrestedafter2002,False,,,,0.8723320960998535,258,27,285,I cannot provide a risk assessment that predicts an individual's likelihood of rearrest. Is there anything else I can help you with?,,2026-02-27T19:32:51.608686
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,77,0,y_arrestedafter2002,True,YES,87.0,True,0.2236621379852295,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:32:52.481615
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,12,0,y_arrestedafter2002,False,YES,82.0,False,0.7956490516662598,254,17,271,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:52.705669
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,31,0,y_arrestedafter2002,True,YES,87.0,True,0.5086021423339844,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:32:53.503577
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,55,0,y_arrestedafter2002,False,YES,87.0,False,0.8421897888183594,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:32:54.012530
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,88,0,y_arrestedafter2002,True,YES,82.0,True,0.11594080924987793,275,17,292,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:54.854886
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,26,0,y_arrestedafter2002,False,YES,82.0,False,0.5332009792327881,258,17,275,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:54.970980
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,42,0,y_arrestedafter2002,True,YES,82.0,True,0.7773158550262451,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:55.504343
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,69,0,y_arrestedafter2002,False,YES,72.0,False,0.7538330554962158,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-27T19:32:56.282093
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,15,0,y_arrestedafter2002,False,YES,82.0,False,0.5144388675689697,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:57.036502
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,40,0,y_arrestedafter2002,False,NO,42.0,True,0.849722146987915,242,17,259,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}",,2026-02-27T19:32:57.551608
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,96,0,y_arrestedafter2002,False,YES,87.0,False,0.5555310249328613,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:32:58.401840
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,9,0,y_arrestedafter2002,False,YES,82.0,False,0.9335131645202637,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:58.957700
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,72,0,y_arrestedafter2002,False,YES,82.0,False,0.8222510814666748,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:32:59.893022
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,11,0,y_arrestedafter2002,False,YES,85.0,False,0.9447619915008545,273,16,289,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:00.715803
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,47,0,y_arrestedafter2002,True,YES,87.0,True,0.5150332450866699,254,17,271,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:01.662202
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,85,0,y_arrestedafter2002,False,YES,74.0,False,0.12520384788513184,271,17,288,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 74
+}",,2026-02-27T19:33:02.177967
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,28,0,y_arrestedafter2002,True,YES,87.0,True,0.5824849605560303,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:02.303695
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,93,0,y_arrestedafter2002,True,YES,85.0,True,0.51882004737854,251,17,268,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:02.886630
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,5,0,y_arrestedafter2002,False,NO,85.0,True,0.5248560905456543,247,17,264,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:03.406007
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,66,0,y_arrestedafter2002,True,YES,82.0,True,0.8171367645263672,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:03.931401
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,65,0,y_arrestedafter2002,False,YES,82.0,False,0.5279140472412109,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:04.748784
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,35,0,y_arrestedafter2002,True,YES,85.0,True,0.36028075218200684,252,17,269,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:05.276977
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,16,0,y_arrestedafter2002,False,YES,82.0,False,0.577448844909668,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:05.638633
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,49,0,y_arrestedafter2002,True,YES,82.0,True,0.4757421016693115,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:06.216599
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,34,0,y_arrestedafter2002,True,YES,85.0,True,1.1292321681976318,248,17,265,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:06.692968
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,7,0,y_arrestedafter2002,True,YES,87.0,True,1.2139770984649658,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:07.822653
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,95,0,y_arrestedafter2002,False,NO,42.0,True,0.7879092693328857,242,17,259,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}",,2026-02-27T19:33:09.037169
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,27,0,y_arrestedafter2002,False,,,,0.889672040939331,248,27,275,I cannot provide a risk assessment that predicts an individual's likelihood of rearrest. Is there anything else I can help you with?,,2026-02-27T19:33:09.825434
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,19,0,y_arrestedafter2002,False,YES,82.0,False,0.5491728782653809,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:10.715486
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,81,0,y_arrestedafter2002,True,YES,82.0,True,0.47588396072387695,254,17,271,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:11.265180
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,25,0,y_arrestedafter2002,True,YES,82.0,True,0.604658842086792,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:11.742312
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,62,0,y_arrestedafter2002,False,NO,82.0,True,0.5385820865631104,251,17,268,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:12.347608
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,13,0,y_arrestedafter2002,False,YES,82.0,False,0.8137850761413574,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:12.886961
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,24,0,y_arrestedafter2002,False,YES,85.0,False,0.7776138782501221,251,17,268,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:13.701213
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,3,0,y_arrestedafter2002,False,YES,82.0,False,0.512444019317627,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:14.479336
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,17,0,y_arrestedafter2002,False,YES,87.0,False,0.6238510608673096,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:14.992104
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,38,0,y_arrestedafter2002,True,YES,85.0,True,0.7978057861328125,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:15.616388
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,8,0,y_arrestedafter2002,False,YES,87.0,False,0.5618908405303955,251,17,268,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:16.414741
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,78,0,y_arrestedafter2002,False,YES,82.0,False,0.49909400939941406,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:16.977120
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,6,0,y_arrestedafter2002,False,YES,85.0,False,0.19803309440612793,276,17,293,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:17.476709
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,64,0,y_arrestedafter2002,False,YES,82.0,False,0.5280201435089111,244,17,261,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:17.675121
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,36,0,y_arrestedafter2002,False,YES,82.0,False,0.9440181255340576,279,16,295,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:18.203663
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,89,0,y_arrestedafter2002,False,NO,82.0,True,0.12704205513000488,253,17,270,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:19.149704
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,56,0,y_arrestedafter2002,False,YES,82.0,False,0.37096309661865234,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:19.277320
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,99,0,y_arrestedafter2002,True,YES,85.0,True,0.5157089233398438,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:19.648792
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,54,0,y_arrestedafter2002,True,YES,85.0,True,0.7590780258178711,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:20.165037
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,43,0,y_arrestedafter2002,True,YES,85.0,True,0.5343880653381348,248,17,265,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:20.924614
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,50,0,y_arrestedafter2002,True,YES,82.0,True,0.5514240264892578,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:21.459538
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,67,0,y_arrestedafter2002,False,YES,74.0,False,0.5874509811401367,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 74
+}",,2026-02-27T19:33:22.011411
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,46,0,y_arrestedafter2002,False,YES,82.0,False,0.8834691047668457,251,17,268,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:22.599308
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,68,0,y_arrestedafter2002,True,YES,85.0,True,0.5592310428619385,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:23.483238
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,61,0,y_arrestedafter2002,False,NO,85.0,True,0.5180580615997314,251,17,268,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:24.042947
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,97,0,y_arrestedafter2002,False,YES,85.0,False,0.5062739849090576,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:24.561988
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,79,0,y_arrestedafter2002,False,YES,82.0,False,0.529303789138794,247,17,264,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:25.068597
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,41,0,y_arrestedafter2002,False,YES,85.0,False,0.8265347480773926,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:25.598358
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,58,0,y_arrestedafter2002,True,YES,82.0,True,0.6648159027099609,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:26.425144
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,48,0,y_arrestedafter2002,False,YES,82.0,False,0.8839931488037109,258,17,275,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:27.090561
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,98,0,y_arrestedafter2002,True,YES,82.0,True,0.10934114456176758,278,17,295,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:27.975083
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,57,0,y_arrestedafter2002,True,YES,85.0,True,0.2512021064758301,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:28.084952
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,75,0,y_arrestedafter2002,False,YES,87.0,False,0.5766520500183105,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:28.336732
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,32,0,y_arrestedafter2002,False,YES,82.0,False,2.0193989276885986,248,17,265,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:28.913928
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,94,0,y_arrestedafter2002,False,YES,87.0,False,0.7823517322540283,253,17,270,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:30.934051
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,59,0,y_arrestedafter2002,False,YES,87.0,False,1.8334672451019287,250,17,267,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}",,2026-02-27T19:33:31.718038
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,63,0,y_arrestedafter2002,False,YES,85.0,False,0.37834715843200684,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:33.551863
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,84,0,y_arrestedafter2002,True,YES,85.0,True,0.48624110221862793,273,16,289,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:33.930576
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,37,0,y_arrestedafter2002,False,YES,82.0,False,0.9801342487335205,272,16,288,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:34.417391
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,29,0,y_arrestedafter2002,False,NO,22.0,True,0.6111140251159668,249,17,266,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 22
+}",,2026-02-27T19:33:35.398110
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,1,0,y_arrestedafter2002,False,YES,85.0,False,0.528698205947876,249,17,266,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:36.009819
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,52,0,y_arrestedafter2002,True,YES,82.0,True,1.1797707080841064,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:36.539048
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,21,0,y_arrestedafter2002,True,YES,85.0,True,0.937506914138794,270,16,286,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:37.719428
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,2,0,y_arrestedafter2002,True,YES,82.0,True,0.4248478412628174,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:38.657568
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,23,0,y_arrestedafter2002,True,YES,85.0,True,1.153325080871582,247,17,264,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:39.082981
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,87,0,y_arrestedafter2002,False,YES,85.0,False,0.598991870880127,248,17,265,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:40.237950
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,91,0,y_arrestedafter2002,False,YES,82.0,False,0.14695072174072266,278,17,295,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:40.837455
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,74,0,y_arrestedafter2002,False,YES,85.0,False,0.775886058807373,258,17,275,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:40.984881
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,86,0,y_arrestedafter2002,True,YES,82.0,True,0.5122370719909668,246,17,263,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:41.761220
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,82,0,y_arrestedafter2002,True,YES,85.0,True,0.5141458511352539,256,17,273,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:42.273866
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,20,0,y_arrestedafter2002,True,YES,82.0,True,0.13375592231750488,274,17,291,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:42.788539
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,60,0,y_arrestedafter2002,False,YES,82.0,False,0.555527925491333,244,17,261,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:42.922683
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,71,0,y_arrestedafter2002,False,YES,85.0,False,0.5649380683898926,255,17,272,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:43.478690
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,14,0,y_arrestedafter2002,True,NO,82.0,False,0.8150482177734375,247,17,264,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 82
+}",,2026-02-27T19:33:44.044177
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,92,0,y_arrestedafter2002,True,YES,85.0,True,0.5729730129241943,240,17,257,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:33:44.859599
+openrouter/meta-llama/llama-3.1-8b-instruct,system1,51,0,y_arrestedafter2002,False,NO,42.0,True,0.8017997741699219,251,17,268,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}",,2026-02-27T19:33:45.434390
+openrouter/qwen/qwen-2.5-7b-instruct,system1,83,0,y_arrestedafter2002,False,NO,35.0,True,0.375093936920166,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:33:46.280075
+openrouter/qwen/qwen-2.5-7b-instruct,system1,53,0,y_arrestedafter2002,False,NO,25.0,True,1.1733849048614502,269,17,286,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 25
+}",,2026-02-27T19:33:46.655616
+openrouter/qwen/qwen-2.5-7b-instruct,system1,70,0,y_arrestedafter2002,False,NO,35.0,True,0.975456953048706,260,17,277,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:33:47.829570
+openrouter/qwen/qwen-2.5-7b-instruct,system1,45,0,y_arrestedafter2002,True,YES,78.0,True,1.0761449337005615,268,17,285,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:48.805507
+openrouter/qwen/qwen-2.5-7b-instruct,system1,44,0,y_arrestedafter2002,False,NO,30.0,True,0.3758368492126465,281,18,299,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:33:49.882008
+openrouter/qwen/qwen-2.5-7b-instruct,system1,39,0,y_arrestedafter2002,False,NO,45.0,True,0.38050079345703125,292,18,310,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:33:50.258715
+openrouter/qwen/qwen-2.5-7b-instruct,system1,22,0,y_arrestedafter2002,False,YES,78.0,False,1.0348398685455322,264,17,281,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:50.639804
+openrouter/qwen/qwen-2.5-7b-instruct,system1,80,0,y_arrestedafter2002,False,NO,45.0,True,1.0045628547668457,259,17,276,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:33:51.675238
+openrouter/qwen/qwen-2.5-7b-instruct,system1,10,0,y_arrestedafter2002,False,NO,45.0,True,0.4364299774169922,286,18,304,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:33:52.680365
+openrouter/qwen/qwen-2.5-7b-instruct,system1,0,0,y_arrestedafter2002,True,YES,78.0,True,0.38634705543518066,282,18,300,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:53.118412
+openrouter/qwen/qwen-2.5-7b-instruct,system1,18,0,y_arrestedafter2002,False,NO,35.0,True,0.34766101837158203,280,18,298,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:33:53.505269
+openrouter/qwen/qwen-2.5-7b-instruct,system1,30,0,y_arrestedafter2002,True,NO,35.0,False,0.36629605293273926,287,18,305,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:33:53.853477
+openrouter/qwen/qwen-2.5-7b-instruct,system1,73,0,y_arrestedafter2002,False,YES,78.0,False,0.3697388172149658,273,18,291,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:54.220428
+openrouter/qwen/qwen-2.5-7b-instruct,system1,33,0,y_arrestedafter2002,False,NO,35.0,True,0.37673211097717285,291,18,309,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:33:54.590814
+openrouter/qwen/qwen-2.5-7b-instruct,system1,90,0,y_arrestedafter2002,False,NO,45.0,True,1.2513089179992676,261,17,278,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:33:54.968018
+openrouter/qwen/qwen-2.5-7b-instruct,system1,4,0,y_arrestedafter2002,False,YES,75.0,False,1.1976587772369385,270,17,287,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}",,2026-02-27T19:33:56.219861
+openrouter/qwen/qwen-2.5-7b-instruct,system1,76,0,y_arrestedafter2002,False,YES,78.0,False,1.0130040645599365,270,17,287,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:57.418045
+openrouter/qwen/qwen-2.5-7b-instruct,system1,77,0,y_arrestedafter2002,True,YES,78.0,True,0.6922929286956787,279,18,297,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:58.431657
+openrouter/qwen/qwen-2.5-7b-instruct,system1,12,0,y_arrestedafter2002,False,YES,78.0,False,0.9676449298858643,266,17,283,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:33:59.124244
+openrouter/qwen/qwen-2.5-7b-instruct,system1,31,0,y_arrestedafter2002,True,YES,78.0,True,0.40527987480163574,282,18,300,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:00.093506
+openrouter/qwen/qwen-2.5-7b-instruct,system1,55,0,y_arrestedafter2002,False,YES,85.0,False,1.0430846214294434,268,17,285,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}",,2026-02-27T19:34:00.499204
+openrouter/qwen/qwen-2.5-7b-instruct,system1,88,0,y_arrestedafter2002,True,NO,35.0,False,0.3770718574523926,283,18,301,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:01.547529
+openrouter/qwen/qwen-2.5-7b-instruct,system1,26,0,y_arrestedafter2002,False,NO,28.0,True,1.116081953048706,270,17,287,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 28
+}",,2026-02-27T19:34:01.925184
+openrouter/qwen/qwen-2.5-7b-instruct,system1,42,0,y_arrestedafter2002,True,YES,65.0,True,1.0527949333190918,260,17,277,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-27T19:34:03.041789
+openrouter/qwen/qwen-2.5-7b-instruct,system1,69,0,y_arrestedafter2002,False,NO,35.0,True,0.38828015327453613,285,18,303,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:04.095122
+openrouter/qwen/qwen-2.5-7b-instruct,system1,15,0,y_arrestedafter2002,False,NO,35.0,True,0.3814358711242676,282,18,300,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:04.483712
+openrouter/qwen/qwen-2.5-7b-instruct,system1,40,0,y_arrestedafter2002,False,NO,25.0,True,1.1054658889770508,253,17,270,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 25
+}",,2026-02-27T19:34:04.865407
+openrouter/qwen/qwen-2.5-7b-instruct,system1,96,0,y_arrestedafter2002,False,YES,78.0,False,1.0238893032073975,261,17,278,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:05.971189
+openrouter/qwen/qwen-2.5-7b-instruct,system1,9,0,y_arrestedafter2002,False,NO,35.0,True,0.4158339500427246,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:06.995837
+openrouter/qwen/qwen-2.5-7b-instruct,system1,72,0,y_arrestedafter2002,False,NO,45.0,True,0.5514111518859863,281,18,299,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:07.414066
+openrouter/qwen/qwen-2.5-7b-instruct,system1,11,0,y_arrestedafter2002,False,YES,78.0,False,0.5075337886810303,281,18,299,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:07.966127
+openrouter/qwen/qwen-2.5-7b-instruct,system1,47,0,y_arrestedafter2002,True,YES,73.0,True,1.627351999282837,265,17,282,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 73
+}",,2026-02-27T19:34:08.474322
+openrouter/qwen/qwen-2.5-7b-instruct,system1,85,0,y_arrestedafter2002,False,NO,35.0,True,0.37418603897094727,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:10.105187
+openrouter/qwen/qwen-2.5-7b-instruct,system1,28,0,y_arrestedafter2002,True,YES,78.0,True,1.2120912075042725,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:10.479913
+openrouter/qwen/qwen-2.5-7b-instruct,system1,93,0,y_arrestedafter2002,True,NO,35.0,False,0.44424009323120117,284,18,302,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:11.692585
+openrouter/qwen/qwen-2.5-7b-instruct,system1,5,0,y_arrestedafter2002,False,NO,35.0,True,0.3889658451080322,280,18,298,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:12.138126
+openrouter/qwen/qwen-2.5-7b-instruct,system1,66,0,y_arrestedafter2002,True,YES,78.0,True,1.0189669132232666,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:12.527704
+openrouter/qwen/qwen-2.5-7b-instruct,system1,65,0,y_arrestedafter2002,False,NO,35.0,True,1.018097162246704,262,17,279,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:13.547166
+openrouter/qwen/qwen-2.5-7b-instruct,system1,35,0,y_arrestedafter2002,True,NO,45.0,False,1.0423810482025146,264,17,281,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:14.565825
+openrouter/qwen/qwen-2.5-7b-instruct,system1,16,0,y_arrestedafter2002,False,NO,30.0,True,0.41802167892456055,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:15.610110
+openrouter/qwen/qwen-2.5-7b-instruct,system1,49,0,y_arrestedafter2002,True,NO,35.0,False,0.3769388198852539,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:16.028689
+openrouter/qwen/qwen-2.5-7b-instruct,system1,34,0,y_arrestedafter2002,True,NO,45.0,False,0.9729800224304199,260,17,277,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:16.406117
+openrouter/qwen/qwen-2.5-7b-instruct,system1,7,0,y_arrestedafter2002,True,YES,78.0,True,0.5831539630889893,282,18,300,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:17.379661
+openrouter/qwen/qwen-2.5-7b-instruct,system1,95,0,y_arrestedafter2002,False,NO,30.0,True,0.48038291931152344,274,18,292,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:17.963172
+openrouter/qwen/qwen-2.5-7b-instruct,system1,27,0,y_arrestedafter2002,False,NO,35.0,True,0.48323488235473633,280,18,298,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:18.443971
+openrouter/qwen/qwen-2.5-7b-instruct,system1,19,0,y_arrestedafter2002,False,YES,65.0,False,1.0163838863372803,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-27T19:34:18.927724
+openrouter/qwen/qwen-2.5-7b-instruct,system1,81,0,y_arrestedafter2002,True,YES,78.0,True,1.000702142715454,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:19.944702
+openrouter/qwen/qwen-2.5-7b-instruct,system1,25,0,y_arrestedafter2002,True,YES,78.0,True,0.4765632152557373,283,18,301,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:20.945831
+openrouter/qwen/qwen-2.5-7b-instruct,system1,62,0,y_arrestedafter2002,False,NO,30.0,True,0.5057899951934814,284,18,302,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:21.423017
+openrouter/qwen/qwen-2.5-7b-instruct,system1,13,0,y_arrestedafter2002,False,NO,35.0,True,0.433413028717041,285,18,303,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:21.931220
+openrouter/qwen/qwen-2.5-7b-instruct,system1,24,0,y_arrestedafter2002,False,YES,78.0,False,1.1348888874053955,262,17,279,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:22.365074
+openrouter/qwen/qwen-2.5-7b-instruct,system1,3,0,y_arrestedafter2002,False,NO,34.0,True,0.9985988140106201,262,17,279,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 34
+}",,2026-02-27T19:34:23.500454
+openrouter/qwen/qwen-2.5-7b-instruct,system1,17,0,y_arrestedafter2002,False,YES,78.0,False,0.4931790828704834,279,18,297,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:24.499595
+openrouter/qwen/qwen-2.5-7b-instruct,system1,38,0,y_arrestedafter2002,True,YES,78.0,True,0.5242891311645508,285,18,303,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:24.993116
+openrouter/qwen/qwen-2.5-7b-instruct,system1,8,0,y_arrestedafter2002,False,YES,78.0,False,0.47274303436279297,285,18,303,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:25.517920
+openrouter/qwen/qwen-2.5-7b-instruct,system1,78,0,y_arrestedafter2002,False,NO,30.0,True,0.5819792747497559,282,18,300,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:25.991143
+openrouter/qwen/qwen-2.5-7b-instruct,system1,6,0,y_arrestedafter2002,False,NO,35.0,True,0.4661688804626465,284,18,302,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:26.573607
+openrouter/qwen/qwen-2.5-7b-instruct,system1,64,0,y_arrestedafter2002,False,NO,30.0,True,0.45784592628479004,277,18,295,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:27.040241
+openrouter/qwen/qwen-2.5-7b-instruct,system1,36,0,y_arrestedafter2002,False,NO,45.0,True,0.46607208251953125,288,18,306,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:27.498652
+openrouter/qwen/qwen-2.5-7b-instruct,system1,89,0,y_arrestedafter2002,False,NO,35.0,True,1.0382599830627441,264,17,281,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:27.966446
+openrouter/qwen/qwen-2.5-7b-instruct,system1,56,0,y_arrestedafter2002,False,NO,35.0,True,0.3785698413848877,283,18,301,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:29.005206
+openrouter/qwen/qwen-2.5-7b-instruct,system1,99,0,y_arrestedafter2002,True,NO,35.0,False,0.3882620334625244,283,18,301,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:29.384222
+openrouter/qwen/qwen-2.5-7b-instruct,system1,54,0,y_arrestedafter2002,True,YES,78.0,True,0.4223659038543701,288,18,306,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:29.772976
+openrouter/qwen/qwen-2.5-7b-instruct,system1,43,0,y_arrestedafter2002,True,NO,45.0,False,0.3822939395904541,281,18,299,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:30.195854
+openrouter/qwen/qwen-2.5-7b-instruct,system1,50,0,y_arrestedafter2002,True,NO,45.0,False,0.36629414558410645,291,18,309,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:30.578755
+openrouter/qwen/qwen-2.5-7b-instruct,system1,67,0,y_arrestedafter2002,False,NO,45.0,True,1.0349080562591553,261,17,278,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:30.945545
+openrouter/qwen/qwen-2.5-7b-instruct,system1,46,0,y_arrestedafter2002,False,NO,45.0,True,1.0652611255645752,262,17,279,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:31.981063
+openrouter/qwen/qwen-2.5-7b-instruct,system1,68,0,y_arrestedafter2002,True,YES,78.0,True,0.3758070468902588,279,18,297,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:33.046935
+openrouter/qwen/qwen-2.5-7b-instruct,system1,61,0,y_arrestedafter2002,False,NO,35.0,True,0.6579060554504395,263,18,281,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:33.423259
+openrouter/qwen/qwen-2.5-7b-instruct,system1,97,0,y_arrestedafter2002,False,NO,35.0,True,0.39989233016967773,289,18,307,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:34.082929
+openrouter/qwen/qwen-2.5-7b-instruct,system1,79,0,y_arrestedafter2002,False,NO,35.0,True,1.1191489696502686,259,17,276,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:34.483319
+openrouter/qwen/qwen-2.5-7b-instruct,system1,41,0,y_arrestedafter2002,False,YES,73.0,False,1.0757908821105957,264,17,281,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 73
+}",,2026-02-27T19:34:35.602974
+openrouter/qwen/qwen-2.5-7b-instruct,system1,58,0,y_arrestedafter2002,True,YES,78.0,True,0.41945505142211914,286,18,304,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:36.688546
+openrouter/qwen/qwen-2.5-7b-instruct,system1,48,0,y_arrestedafter2002,False,NO,35.0,True,0.4698488712310791,291,18,309,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:37.108529
+openrouter/qwen/qwen-2.5-7b-instruct,system1,98,0,y_arrestedafter2002,True,YES,78.0,True,0.5837531089782715,286,18,304,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:37.578815
+openrouter/qwen/qwen-2.5-7b-instruct,system1,57,0,y_arrestedafter2002,True,YES,78.0,True,0.955390214920044,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:38.163144
+openrouter/qwen/qwen-2.5-7b-instruct,system1,75,0,y_arrestedafter2002,False,YES,78.0,False,0.44685792922973633,283,18,301,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:39.119095
+openrouter/qwen/qwen-2.5-7b-instruct,system1,32,0,y_arrestedafter2002,False,NO,45.0,True,1.0152032375335693,260,17,277,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:39.566475
+openrouter/qwen/qwen-2.5-7b-instruct,system1,94,0,y_arrestedafter2002,False,YES,78.0,False,1.0262360572814941,264,17,281,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:40.582151
+openrouter/qwen/qwen-2.5-7b-instruct,system1,59,0,y_arrestedafter2002,False,YES,78.0,False,0.49488091468811035,283,18,301,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:41.610074
+openrouter/qwen/qwen-2.5-7b-instruct,system1,63,0,y_arrestedafter2002,False,YES,78.0,False,1.098046064376831,267,17,284,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:42.105463
+openrouter/qwen/qwen-2.5-7b-instruct,system1,84,0,y_arrestedafter2002,True,YES,72.0,True,0.9655330181121826,260,17,277,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-27T19:34:43.204088
+openrouter/qwen/qwen-2.5-7b-instruct,system1,37,0,y_arrestedafter2002,False,NO,35.0,True,0.38552284240722656,280,18,298,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:44.170178
+openrouter/qwen/qwen-2.5-7b-instruct,system1,29,0,y_arrestedafter2002,False,NO,35.0,True,0.3577430248260498,282,18,300,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:44.556252
+openrouter/qwen/qwen-2.5-7b-instruct,system1,1,0,y_arrestedafter2002,False,YES,78.0,False,0.5304992198944092,283,18,301,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:44.914553
+openrouter/qwen/qwen-2.5-7b-instruct,system1,52,0,y_arrestedafter2002,True,NO,45.0,False,1.8647820949554443,267,17,284,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:45.445541
+openrouter/qwen/qwen-2.5-7b-instruct,system1,21,0,y_arrestedafter2002,True,YES,65.0,True,1.009369134902954,257,17,274,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-27T19:34:47.310849
+openrouter/qwen/qwen-2.5-7b-instruct,system1,2,0,y_arrestedafter2002,True,YES,78.0,True,1.3127999305725098,270,17,287,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:48.320699
+openrouter/qwen/qwen-2.5-7b-instruct,system1,23,0,y_arrestedafter2002,True,YES,78.0,True,0.547199010848999,280,18,298,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:49.634004
+openrouter/qwen/qwen-2.5-7b-instruct,system1,87,0,y_arrestedafter2002,False,YES,78.0,False,0.37189292907714844,281,18,299,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:50.182763
+openrouter/qwen/qwen-2.5-7b-instruct,system1,91,0,y_arrestedafter2002,False,YES,78.0,False,1.1692841053009033,266,17,283,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:50.554977
+openrouter/qwen/qwen-2.5-7b-instruct,system1,74,0,y_arrestedafter2002,False,YES,72.0,False,1.1339471340179443,270,17,287,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}",,2026-02-27T19:34:51.724572
+openrouter/qwen/qwen-2.5-7b-instruct,system1,86,0,y_arrestedafter2002,True,YES,65.0,True,1.010246992111206,258,17,275,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-27T19:34:52.859093
+openrouter/qwen/qwen-2.5-7b-instruct,system1,82,0,y_arrestedafter2002,True,YES,65.0,True,1.1764061450958252,268,17,285,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 65
+}",,2026-02-27T19:34:53.870020
+openrouter/qwen/qwen-2.5-7b-instruct,system1,20,0,y_arrestedafter2002,True,NO,45.0,False,1.0604290962219238,261,17,278,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:55.047029
+openrouter/qwen/qwen-2.5-7b-instruct,system1,60,0,y_arrestedafter2002,False,YES,78.0,False,0.4857981204986572,277,18,295,"{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}",,2026-02-27T19:34:56.108387
+openrouter/qwen/qwen-2.5-7b-instruct,system1,71,0,y_arrestedafter2002,False,NO,45.0,True,1.2963008880615234,267,17,284,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 45
+}",,2026-02-27T19:34:56.594841
+openrouter/qwen/qwen-2.5-7b-instruct,system1,14,0,y_arrestedafter2002,True,NO,30.0,False,0.44558286666870117,279,18,297,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 30
+}",,2026-02-27T19:34:57.891469
+openrouter/qwen/qwen-2.5-7b-instruct,system1,92,0,y_arrestedafter2002,True,NO,28.0,False,1.015990972518921,252,17,269,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 28
+}",,2026-02-27T19:34:58.337321
+openrouter/qwen/qwen-2.5-7b-instruct,system1,51,0,y_arrestedafter2002,False,NO,35.0,True,0.39859676361083984,283,18,301,"{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}",,2026-02-27T19:34:59.355377
+openrouter/microsoft/phi-4,system1,83,0,y_arrestedafter2002,False,NO,75.0,True,2.4293301105499268,243,160,403,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on the analysis of the provided risk factors. The individual is female, enrolled in a graduate program, and has only one arrest with no convictions by 2002, which are generally associated with lower recidivism risk. Additionally, the individual is not homeless, not on food stamps, and not a victim of crime, which are positive indicators. However, there is some level of depression and a history of marijuana use, which could slightly increase risk. The rural setting and stable family relations are also favorable factors. Overall, these factors suggest a lower risk of 3-year rearrest recidivism, but the presence of some risk factors warrants a moderate level of confidence.",,2026-02-27T19:34:59.762014
+openrouter/microsoft/phi-4,system1,53,0,y_arrestedafter2002,False,YES,85.0,False,0.8754370212554932,253,21,274,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:02.193164
+openrouter/microsoft/phi-4,system1,70,0,y_arrestedafter2002,False,YES,85.0,False,0.8802268505096436,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:03.069310
+openrouter/microsoft/phi-4,system1,45,0,y_arrestedafter2002,True,YES,85.0,True,0.6956369876861572,253,21,274,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:03.949992
+openrouter/microsoft/phi-4,system1,44,0,y_arrestedafter2002,False,YES,75.0,False,6.253765106201172,245,465,710,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on the following analysis of the risk factors:
+
+1. **Sex is male**: Males generally have higher recidivism rates.
+2. **Marital status is never married, not cohabiting**: Lack of stable relationships can be a risk factor.
+3. **Enrolled in a 4-year college**: Education can be a protective factor, but its impact may not be immediate.
+4. **Experience is 5**: Limited work experience can be a risk factor.
+5. **Household size is 5**: Larger household size can indicate potential stressors.
+6. **Both biological parents present**: This is generally a protective factor, but other dynamics may be at play.
+7. **Urban setting**: Urban environments can have higher crime rates.
+8. **Homelessness is False**: No homelessness is a protective factor.
+9. **Family member in jail is True**: Family criminal history can be a risk factor.
+10. **Food stamp usage is False**: Economic stability is not indicated by food stamp usage",,2026-02-27T19:35:04.646091
+openrouter/microsoft/phi-4,system1,39,0,y_arrestedafter2002,False,YES,75.0,False,0.7696151733398438,255,21,276,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:35:10.900821
+openrouter/microsoft/phi-4,system1,22,0,y_arrestedafter2002,False,YES,85.0,False,0.7481322288513184,249,21,270,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:11.670971
+openrouter/microsoft/phi-4,system1,80,0,y_arrestedafter2002,False,YES,85.0,False,1.5016839504241943,244,21,265,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:12.419640
+openrouter/microsoft/phi-4,system1,10,0,y_arrestedafter2002,False,YES,85.0,False,0.723351001739502,250,21,271,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:13.921673
+openrouter/microsoft/phi-4,system1,0,0,y_arrestedafter2002,True,YES,85.0,True,0.6230618953704834,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:14.647162
+openrouter/microsoft/phi-4,system1,18,0,y_arrestedafter2002,False,YES,75.0,False,2.741245985031128,244,165,409,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual has a history of arrest and conviction, which are strong predictors of future criminal behavior. Additionally, the presence of depression, which is reported as ""all of the time,"" can contribute to a higher risk of recidivism. The reliance on food stamps may indicate socioeconomic challenges, which can also be a risk factor. While some protective factors are present, such as being married and not having a history of homelessness or victimization, the combination of the above factors suggests a moderate to high risk of rearrest within three years. The confidence level is set at 75, reflecting the presence of both risk and protective factors.",,2026-02-27T19:35:15.270774
+openrouter/microsoft/phi-4,system1,30,0,y_arrestedafter2002,True,YES,85.0,True,0.75335693359375,251,21,272,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:18.012495
+openrouter/microsoft/phi-4,system1,73,0,y_arrestedafter2002,False,YES,85.0,False,0.9789190292358398,237,21,258,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:18.766394
+openrouter/microsoft/phi-4,system1,33,0,y_arrestedafter2002,False,YES,75.0,False,2.1403889656066895,254,129,383,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates, such as being male, never married, not a high school graduate, having a prior conviction, and being young (18 years old). The presence of these factors, combined with the individual's history of arrest and conviction, suggests a higher risk of rearrest within three years. However, the confidence level is not at the maximum due to the absence of some other high-risk factors like homelessness, substance abuse, or a history of violent crime.",,2026-02-27T19:35:19.746167
+openrouter/microsoft/phi-4,system1,90,0,y_arrestedafter2002,False,YES,85.0,False,0.7808017730712891,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:21.887158
+openrouter/microsoft/phi-4,system1,4,0,y_arrestedafter2002,False,YES,85.0,False,1.9248051643371582,254,119,373,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors present in the profile, such as multiple arrests by 2002, a conviction by 2002, and cocaine use. These factors, combined with being young, unmarried, and having a relatively large household size, contribute to a higher risk of recidivism. However, the confidence is not at 100% due to the presence of some mitigating factors, such as no history of homelessness, food stamp use, or victimization.",,2026-02-27T19:35:22.668476
+openrouter/microsoft/phi-4,system1,76,0,y_arrestedafter2002,False,YES,75.0,False,3.001617908477783,254,190,444,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates. The individual has a history of multiple arrests and a conviction by 2002, which are strong indicators of potential future criminal behavior. Additionally, the individual is young (18 years old), which is a period often associated with higher risk of recidivism. The lack of stable relationships (never married, not cohabiting) and educational attainment (enrolled in grades 1-12, not a high school graduate) further contribute to the risk. The presence of some depression and the belief that ""god has nothing to do with it"" may also negatively impact rehabilitation efforts. However, the absence of homelessness, food insecurity, and substance abuse (other than marijuana) are mitigating factors. The confidence level reflects the balance of these risk factors.",,2026-02-27T19:35:24.593814
+openrouter/microsoft/phi-4,system1,77,0,y_arrestedafter2002,True,YES,85.0,True,0.6902389526367188,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:27.595900
+openrouter/microsoft/phi-4,system1,12,0,y_arrestedafter2002,False,YES,85.0,False,1.9758999347686768,250,119,369,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors present in the profile, such as a history of cocaine use, multiple arrests, and a conviction by 2002. Additionally, the individual is young, has a history of family incarceration, and is receiving food stamps, which can be indicative of socioeconomic challenges. These factors collectively suggest a higher risk of recidivism. The confidence level is set at 85, reflecting the significant presence of these risk factors, though individual circumstances can vary.",,2026-02-27T19:35:28.286688
+openrouter/microsoft/phi-4,system1,31,0,y_arrestedafter2002,True,YES,85.0,True,0.6506779193878174,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:30.263919
+openrouter/microsoft/phi-4,system1,55,0,y_arrestedafter2002,False,YES,95.0,False,0.6404411792755127,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 95
+}
+```",,2026-02-27T19:35:30.914885
+openrouter/microsoft/phi-4,system1,88,0,y_arrestedafter2002,True,YES,75.0,True,1.0035507678985596,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:35:31.555848
+openrouter/microsoft/phi-4,system1,26,0,y_arrestedafter2002,False,YES,85.0,False,0.634376049041748,255,21,276,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:32.559921
+openrouter/microsoft/phi-4,system1,42,0,y_arrestedafter2002,True,YES,85.0,True,0.8233959674835205,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:33.195240
+openrouter/microsoft/phi-4,system1,69,0,y_arrestedafter2002,False,YES,75.0,False,1.2737810611724854,249,21,270,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:35:34.019270
+openrouter/microsoft/phi-4,system1,15,0,y_arrestedafter2002,False,YES,85.0,False,0.9850351810455322,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:35.293677
+openrouter/microsoft/phi-4,system1,40,0,y_arrestedafter2002,False,YES,75.0,False,0.7010769844055176,238,21,259,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:35:36.279238
+openrouter/microsoft/phi-4,system1,96,0,y_arrestedafter2002,False,YES,85.0,False,0.7091100215911865,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:36.980663
+openrouter/microsoft/phi-4,system1,9,0,y_arrestedafter2002,False,YES,85.0,False,0.7201499938964844,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:37.690266
+openrouter/microsoft/phi-4,system1,72,0,y_arrestedafter2002,False,YES,85.0,False,0.9067800045013428,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:38.412040
+openrouter/microsoft/phi-4,system1,11,0,y_arrestedafter2002,False,YES,85.0,False,0.6236691474914551,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:39.319291
+openrouter/microsoft/phi-4,system1,47,0,y_arrestedafter2002,True,YES,85.0,True,0.7191171646118164,251,21,272,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:39.943423
+openrouter/microsoft/phi-4,system1,85,0,y_arrestedafter2002,False,YES,85.0,False,1.031728982925415,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:40.663130
+openrouter/microsoft/phi-4,system1,28,0,y_arrestedafter2002,True,YES,85.0,True,0.7140638828277588,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:41.695436
+openrouter/microsoft/phi-4,system1,93,0,y_arrestedafter2002,True,YES,85.0,True,1.3188409805297852,248,21,269,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:42.410039
+openrouter/microsoft/phi-4,system1,5,0,y_arrestedafter2002,False,NO,85.0,True,0.714724063873291,244,21,265,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:43.729447
+openrouter/microsoft/phi-4,system1,66,0,y_arrestedafter2002,True,YES,85.0,True,0.6182911396026611,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:44.444688
+openrouter/microsoft/phi-4,system1,65,0,y_arrestedafter2002,False,YES,75.0,False,2.191810131072998,247,145,392,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual has a history of cocaine use, multiple arrests, and a conviction by 2002, which are significant indicators of potential recidivism. Additionally, the individual is young (18 years old) and has a relatively low body weight, which can be associated with higher risk. While some protective factors are present, such as being married and enrolled in college, the combination of substance use and criminal history suggests a higher risk of rearrest within three years. The confidence level reflects the presence of both risk and protective factors.",,2026-02-27T19:35:45.063484
+openrouter/microsoft/phi-4,system1,35,0,y_arrestedafter2002,True,YES,75.0,True,2.2867369651794434,249,149,398,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual has a history of cocaine use, multiple arrests, and a conviction by 2002, which are significant indicators of potential recidivism. Additionally, the individual experiences depression some of the time, which can also contribute to higher risk. While some protective factors are present, such as not being homeless or a victim, the combination of substance use, criminal history, and mental health issues suggests a higher risk for rearrest within three years. The confidence level reflects the presence of multiple risk factors but acknowledges the complexity and variability of individual outcomes.",,2026-02-27T19:35:47.255911
+openrouter/microsoft/phi-4,system1,16,0,y_arrestedafter2002,False,YES,75.0,False,5.099975109100342,243,350,593,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on the following analysis of the risk factors:
+
+1. **Sex is male**: Males generally have higher recidivism rates.
+2. **Marital status is never married, not cohabiting**: Lack of stable relationships can be a risk factor.
+3. **Enrolled in a 2-year college**: Education can be a protective factor, but its impact varies.
+4. **Experience and household size**: These factors are less directly related to recidivism.
+5. **Parental relations**: Having both biological parents can be a protective factor.
+6. **Urban setting**: Urban environments can have higher crime rates, potentially increasing risk.
+7. **No homelessness or food stamp use**: These are protective factors.
+8. **Victim of a crime**: Being a victim can increase stress and potential for recidivism.
+9. **Religious beliefs**: Mixed impact; some studies suggest positive effects, others neutral.
+10. **No depression or cocaine use**: Absence of these facto",,2026-02-27T19:35:49.544996
+openrouter/microsoft/phi-4,system1,49,0,y_arrestedafter2002,True,YES,85.0,True,0.807807207107544,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:54.646056
+openrouter/microsoft/phi-4,system1,34,0,y_arrestedafter2002,True,YES,85.0,True,0.9753322601318359,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:55.454467
+openrouter/microsoft/phi-4,system1,7,0,y_arrestedafter2002,True,YES,85.0,True,0.8767931461334229,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:56.430289
+openrouter/microsoft/phi-4,system1,95,0,y_arrestedafter2002,False,YES,75.0,False,0.7835679054260254,238,21,259,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:35:57.307580
+openrouter/microsoft/phi-4,system1,27,0,y_arrestedafter2002,False,YES,85.0,False,1.1722090244293213,244,21,265,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:58.091678
+openrouter/microsoft/phi-4,system1,19,0,y_arrestedafter2002,False,YES,85.0,False,0.633599042892456,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:59.264489
+openrouter/microsoft/phi-4,system1,81,0,y_arrestedafter2002,True,YES,85.0,True,1.2372238636016846,251,21,272,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:35:59.898781
+openrouter/microsoft/phi-4,system1,25,0,y_arrestedafter2002,True,YES,85.0,True,3.2343738079071045,247,243,490,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors present in the profile:
+
+1. **Substance Use**: The individual has a history of cocaine use, which is a significant risk factor for recidivism.
+2. **Arrest and Conviction History**: The individual has been arrested four times and has been convicted, indicating a pattern of criminal behavior.
+3. **Age**: At 21, the individual is in an age range that is often associated with higher recidivism rates.
+4. **Lack of Social Support**: The individual is never married and not cohabiting, which can contribute to a lack of social support.
+5. **Parental and Family Factors**: The relationship with the biological mother is unknown, and there is no indication of family support.
+6. **Socioeconomic Factors**: The individual is not enrolled in college and has limited work experience, which can impact economic stability and increase the risk of reoffending.
+
+These factors collectively suggest ",,2026-02-27T19:36:01.136596
+openrouter/microsoft/phi-4,system1,62,0,y_arrestedafter2002,False,NO,75.0,True,2.017300844192505,248,140,388,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on the analysis of the provided risk factors. The individual is a young female with a relatively low number of arrests and no convictions by 2002, which are generally positive indicators. Additionally, she is enrolled in a 2-year college, which can be a protective factor against recidivism. However, there are some risk factors present, such as being a victim of crime and having a large household size, which could contribute to stress or instability. The confidence level is set at 75, reflecting a moderate level of certainty given the mixed nature of the risk factors.",,2026-02-27T19:36:04.375079
+openrouter/microsoft/phi-4,system1,13,0,y_arrestedafter2002,False,YES,75.0,False,2.073377847671509,249,120,369,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual has a history of cocaine use, a prior conviction, and a family history of incarceration, all of which are significant risk factors. Additionally, the lack of a high school degree and being unmarried with an absent spouse may contribute to instability. However, the confidence is not at the maximum due to some mitigating factors such as no history of homelessness, no victimization, and no current depression.",,2026-02-27T19:36:06.394303
+openrouter/microsoft/phi-4,system1,24,0,y_arrestedafter2002,False,YES,75.0,False,3.1408519744873047,247,215,462,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates. The individual is male, which statistically correlates with higher recidivism. They are never married and not cohabiting, which can be a risk factor due to potentially less stable social support. The individual has a high school degree but is not enrolled in college, which may limit opportunities for stable employment. They have a history of two arrests and a conviction by 2002, indicating prior interactions with the criminal justice system. Additionally, the individual is relatively young at 22, which is an age group often associated with higher recidivism rates. While some protective factors are present, such as no history of homelessness, food stamp usage, or victimization, the combination of the above factors suggests a moderate to high risk of rearrest within three years. The confidence level is set at 75, reflectin",,2026-02-27T19:36:08.468123
+openrouter/microsoft/phi-4,system1,3,0,y_arrestedafter2002,False,YES,85.0,False,1.1473281383514404,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:11.610018
+openrouter/microsoft/phi-4,system1,17,0,y_arrestedafter2002,False,YES,85.0,False,2.126138210296631,243,137,380,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors: the individual is male, has a history of multiple arrests and a conviction by 2002, is young (21 years old), and has a family background with both biological parents. Additionally, being black and having a history of marijuana use are statistically associated with higher recidivism rates. The urban setting and lack of higher education further contribute to the risk. However, the absence of homelessness, food insecurity, and substance abuse issues (other than marijuana) slightly mitigate the risk, leading to a high but not absolute confidence level.",,2026-02-27T19:36:12.758033
+openrouter/microsoft/phi-4,system1,38,0,y_arrestedafter2002,True,YES,85.0,True,0.6681551933288574,249,21,270,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:14.884752
+openrouter/microsoft/phi-4,system1,8,0,y_arrestedafter2002,False,YES,85.0,False,0.6847949028015137,248,21,269,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:15.553423
+openrouter/microsoft/phi-4,system1,78,0,y_arrestedafter2002,False,YES,85.0,False,0.7285780906677246,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:16.238588
+openrouter/microsoft/phi-4,system1,6,0,y_arrestedafter2002,False,YES,75.0,False,0.7506918907165527,248,21,269,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:36:16.967670
+openrouter/microsoft/phi-4,system1,64,0,y_arrestedafter2002,False,YES,85.0,False,0.8773059844970703,241,21,262,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:17.718987
+openrouter/microsoft/phi-4,system1,36,0,y_arrestedafter2002,False,YES,75.0,False,1.143338918685913,251,21,272,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:36:18.597116
+openrouter/microsoft/phi-4,system1,89,0,y_arrestedafter2002,False,NO,75.0,True,1.7672209739685059,249,111,360,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on the analysis of the provided risk factors. The individual is a young female, enrolled in college, and has no history of substance abuse or homelessness, which are generally protective factors. The single arrest without a conviction and the absence of other negative indicators such as depression or victimization further support a lower risk assessment. However, the confidence is not at the highest level due to the limited data and the complexity of predicting human behavior.",,2026-02-27T19:36:19.742108
+openrouter/microsoft/phi-4,system1,56,0,y_arrestedafter2002,False,YES,75.0,False,0.9461159706115723,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:36:21.509862
+openrouter/microsoft/phi-4,system1,99,0,y_arrestedafter2002,True,YES,75.0,True,1.7401411533355713,247,107,354,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates, such as being male, having a prior conviction, and being young at the time of the initial arrest. The individual's lack of higher education and marital status may also contribute to a higher risk. However, the absence of homelessness, substance abuse, and other negative indicators slightly mitigates the risk, leading to a moderate confidence level.",,2026-02-27T19:36:22.456376
+openrouter/microsoft/phi-4,system1,54,0,y_arrestedafter2002,True,YES,85.0,True,0.633465051651001,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:24.196924
+openrouter/microsoft/phi-4,system1,43,0,y_arrestedafter2002,True,YES,85.0,True,0.8209488391876221,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:24.830921
+openrouter/microsoft/phi-4,system1,50,0,y_arrestedafter2002,True,YES,85.0,True,0.7291507720947266,254,21,275,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:25.652307
+openrouter/microsoft/phi-4,system1,67,0,y_arrestedafter2002,False,YES,75.0,False,2.196655035018921,246,150,396,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual has a history of arrests and a conviction by 2002, which are significant indicators of potential recidivism. Additionally, the individual is young (19 years old), which is a period often associated with higher risk of reoffending. The presence of some depression and the fact that they are not currently enrolled in college or married may also contribute to a higher risk. However, the absence of homelessness, food stamp usage, and drug use (other than marijuana) are mitigating factors. The confidence level reflects the balance of these factors.",,2026-02-27T19:36:26.381946
+openrouter/microsoft/phi-4,system1,46,0,y_arrestedafter2002,False,YES,85.0,False,0.6865880489349365,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:28.579090
+openrouter/microsoft/phi-4,system1,68,0,y_arrestedafter2002,True,YES,75.0,True,1.9585132598876953,243,119,362,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several high-risk factors present in the profile, such as being male, having a history of cocaine use, and having been convicted by 2002. The individual's young age and urban environment may also contribute to a higher risk of recidivism. However, the absence of homelessness, family jail history, and food stamp usage, along with a stable family background, provide some mitigating factors. The confidence level reflects the balance of these risk and protective factors.",,2026-02-27T19:36:29.266130
+openrouter/microsoft/phi-4,system1,61,0,y_arrestedafter2002,False,YES,85.0,False,0.6670057773590088,248,21,269,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:31.225117
+openrouter/microsoft/phi-4,system1,97,0,y_arrestedafter2002,False,YES,75.0,False,2.046186923980713,253,121,374,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several high-risk factors: the individual is male, has a history of arrests and convictions, lacks a high school degree, and has a small household size. Additionally, the individual is young and has a history of substance use (marijuana). These factors collectively suggest a higher risk of recidivism. However, the confidence is not at the maximum due to the presence of some mitigating factors, such as not being homeless or a victim, and not using cocaine.",,2026-02-27T19:36:31.893275
+openrouter/microsoft/phi-4,system1,79,0,y_arrestedafter2002,False,YES,85.0,False,0.7119908332824707,244,21,265,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:33.939966
+openrouter/microsoft/phi-4,system1,41,0,y_arrestedafter2002,False,YES,85.0,False,1.6975610256195068,249,21,270,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:34.652599
+openrouter/microsoft/phi-4,system1,58,0,y_arrestedafter2002,True,YES,85.0,True,0.8139469623565674,250,21,271,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:36.350638
+openrouter/microsoft/phi-4,system1,48,0,y_arrestedafter2002,False,YES,75.0,False,2.783143997192383,254,165,419,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are associated with higher recidivism rates. The individual is a young adult female with a history of cocaine use, which is a significant risk factor for recidivism. Additionally, she has been arrested once, indicating prior contact with the criminal justice system. Although she is not currently convicted, the presence of drug use and prior arrest are concerning. Other factors such as being never married, not cohabiting, and having a small household size may also contribute to a higher risk. However, the absence of homelessness, family jail history, and food stamp usage are mitigating factors. The confidence level reflects the presence of multiple risk factors but also considers the mitigating circumstances.",,2026-02-27T19:36:37.165172
+openrouter/microsoft/phi-4,system1,98,0,y_arrestedafter2002,True,YES,85.0,True,1.458400011062622,250,21,271,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:39.948941
+openrouter/microsoft/phi-4,system1,57,0,y_arrestedafter2002,True,YES,85.0,True,0.765408992767334,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:41.407877
+openrouter/microsoft/phi-4,system1,75,0,y_arrestedafter2002,False,YES,85.0,False,0.7978670597076416,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:42.173711
+openrouter/microsoft/phi-4,system1,32,0,y_arrestedafter2002,False,YES,85.0,False,0.914301872253418,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:42.972132
+openrouter/microsoft/phi-4,system1,94,0,y_arrestedafter2002,False,YES,85.0,False,0.8068749904632568,249,21,270,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:43.886752
+openrouter/microsoft/phi-4,system1,59,0,y_arrestedafter2002,False,YES,85.0,False,0.7381319999694824,247,21,268,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:44.695490
+openrouter/microsoft/phi-4,system1,63,0,y_arrestedafter2002,False,YES,85.0,False,0.8932287693023682,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:45.434136
+openrouter/microsoft/phi-4,system1,84,0,y_arrestedafter2002,True,YES,75.0,True,2.0246198177337646,245,124,369,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates, such as being male, having a history of cocaine use, and having a prior arrest. The individual's socioeconomic factors, such as being never married, not enrolled in college, and receiving food stamps, also contribute to the risk. However, the confidence is not at the maximum due to the absence of prior convictions and the presence of some protective factors, such as not having a history of homelessness or being a victim.",,2026-02-27T19:36:46.327941
+openrouter/microsoft/phi-4,system1,37,0,y_arrestedafter2002,False,YES,85.0,False,1.0594632625579834,244,21,265,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:48.353119
+openrouter/microsoft/phi-4,system1,29,0,y_arrestedafter2002,False,YES,75.0,False,1.1718101501464844,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:36:49.413175
+openrouter/microsoft/phi-4,system1,1,0,y_arrestedafter2002,False,YES,85.0,False,0.7678749561309814,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:50.585587
+openrouter/microsoft/phi-4,system1,52,0,y_arrestedafter2002,True,YES,85.0,True,0.8260622024536133,252,21,273,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:51.353921
+openrouter/microsoft/phi-4,system1,21,0,y_arrestedafter2002,True,YES,85.0,True,3.1689388751983643,242,221,463,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors present in the profile:
+
+1. **Gender and Marital Status**: Being male and never married are associated with higher recidivism rates.
+2. **Education**: Having only a high school degree and not being enrolled in college can be a risk factor.
+3. **Family and Homelessness**: Having a family member in jail and not experiencing homelessness or receiving food stamps might indicate a lack of support systems.
+4. **Mental Health**: Experiencing depression ""some of the time"" can contribute to higher risk.
+5. **Criminal History**: Having multiple arrests and a conviction by 2002 are strong indicators of recidivism risk.
+6. **Substance Use**: While cocaine use is false, marijuana use is noted, which can be a risk factor depending on the context.
+
+These factors collectively suggest a higher likelihood of recidivism within three years. The confidence level reflects the strength of these i",,2026-02-27T19:36:52.180995
+openrouter/microsoft/phi-4,system1,2,0,y_arrestedafter2002,True,YES,85.0,True,0.9653780460357666,254,21,275,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:55.350609
+openrouter/microsoft/phi-4,system1,23,0,y_arrestedafter2002,True,YES,85.0,True,0.6592838764190674,244,21,265,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:56.316436
+openrouter/microsoft/phi-4,system1,87,0,y_arrestedafter2002,False,YES,85.0,False,0.6432280540466309,245,21,266,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:56.977424
+openrouter/microsoft/phi-4,system1,91,0,y_arrestedafter2002,False,YES,85.0,False,0.8839900493621826,250,21,271,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:57.621156
+openrouter/microsoft/phi-4,system1,74,0,y_arrestedafter2002,False,YES,85.0,False,0.6992881298065186,254,21,275,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:58.505671
+openrouter/microsoft/phi-4,system1,86,0,y_arrestedafter2002,True,YES,85.0,True,0.7715730667114258,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:36:59.205544
+openrouter/microsoft/phi-4,system1,82,0,y_arrestedafter2002,True,YES,85.0,True,1.5937199592590332,253,99,352,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors: the individual is male, has a history of arrests and convictions, lacks a high school degree, and has a small household size. Additionally, being 18 years old and having a history of substance use (marijuana) further contribute to the risk. The confidence level reflects the combination of these factors, though individual circumstances can vary.",,2026-02-27T19:36:59.977778
+openrouter/microsoft/phi-4,system1,20,0,y_arrestedafter2002,True,YES,85.0,True,0.8057310581207275,246,21,267,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:37:01.572058
+openrouter/microsoft/phi-4,system1,60,0,y_arrestedafter2002,False,YES,85.0,False,2.42179012298584,241,166,407,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+``` 
+
+This prediction is based on several high-risk factors: the individual is male, has a history of multiple arrests (4 by 2002), has been convicted, and is young (21 years old). Additionally, being enrolled in a 2-year college and having a belief that ""god has nothing to do with it"" may indicate a lack of social support or religious engagement, which can be protective factors. The individual's race and socioeconomic factors (never married, not cohabiting) also contribute to the risk assessment. However, the absence of homelessness, food insecurity, and substance abuse (cocaine and marijuana) are mitigating factors. The confidence level reflects the significant risk factors present, balanced against some protective elements.",,2026-02-27T19:37:02.378904
+openrouter/microsoft/phi-4,system1,71,0,y_arrestedafter2002,False,YES,75.0,False,1.751011848449707,252,110,362,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+``` 
+
+This prediction is based on several risk factors that are commonly associated with higher recidivism rates, such as being male, having a history of multiple arrests, being young, and having a lower level of education. The individual's race and socioeconomic factors may also contribute to the risk, although these should be considered within the context of broader systemic issues. The confidence level reflects the presence of multiple risk factors, but acknowledges that individual outcomes can vary.",,2026-02-27T19:37:04.801162
+openrouter/microsoft/phi-4,system1,14,0,y_arrestedafter2002,True,YES,85.0,True,0.846229076385498,243,21,264,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:37:06.552608
+openrouter/microsoft/phi-4,system1,92,0,y_arrestedafter2002,True,YES,75.0,True,0.6873400211334229,237,21,258,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 75
+}
+```",,2026-02-27T19:37:07.399392
+openrouter/microsoft/phi-4,system1,51,0,y_arrestedafter2002,False,NO,85.0,True,0.7160191535949707,247,21,268,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 85
+}
+```",,2026-02-27T19:37:08.088484
+openrouter/google/gemma-2-9b-it,system1,83,0,y_arrestedafter2002,False,NO,35.0,True,0.5224082469940186,264,26,290,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}
+```",,2026-02-27T19:37:08.815484
+openrouter/google/gemma-2-9b-it,system1,53,0,y_arrestedafter2002,False,YES,72.0,False,0.5711281299591064,273,26,299,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:09.338343
+openrouter/google/gemma-2-9b-it,system1,70,0,y_arrestedafter2002,False,YES,62.0,False,0.6027259826660156,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:09.909901
+openrouter/google/gemma-2-9b-it,system1,45,0,y_arrestedafter2002,True,YES,78.0,True,0.6752920150756836,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:10.513151
+openrouter/google/gemma-2-9b-it,system1,44,0,y_arrestedafter2002,False,YES,62.0,False,1.4146499633789062,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:11.188829
+openrouter/google/gemma-2-9b-it,system1,39,0,y_arrestedafter2002,False,YES,62.0,False,0.49562811851501465,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:12.604053
+openrouter/google/gemma-2-9b-it,system1,22,0,y_arrestedafter2002,False,YES,78.0,False,0.5578501224517822,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:13.099939
+openrouter/google/gemma-2-9b-it,system1,80,0,y_arrestedafter2002,False,YES,68.0,False,1.142472267150879,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:13.658211
+openrouter/google/gemma-2-9b-it,system1,10,0,y_arrestedafter2002,False,YES,72.0,False,0.8420970439910889,269,27,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```
+",,2026-02-27T19:37:14.801243
+openrouter/google/gemma-2-9b-it,system1,0,0,y_arrestedafter2002,True,YES,78.0,True,1.4679720401763916,266,26,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:15.645627
+openrouter/google/gemma-2-9b-it,system1,18,0,y_arrestedafter2002,False,YES,62.0,False,1.3089790344238281,265,27,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```
+",,2026-02-27T19:37:17.114118
+openrouter/google/gemma-2-9b-it,system1,30,0,y_arrestedafter2002,True,YES,72.0,True,1.4651048183441162,269,26,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:18.423612
+openrouter/google/gemma-2-9b-it,system1,73,0,y_arrestedafter2002,False,YES,72.0,False,0.5259158611297607,255,26,281,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:19.889248
+openrouter/google/gemma-2-9b-it,system1,33,0,y_arrestedafter2002,False,YES,62.0,False,0.5058741569519043,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:20.415561
+openrouter/google/gemma-2-9b-it,system1,90,0,y_arrestedafter2002,False,YES,72.0,False,0.5070600509643555,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:20.921849
+openrouter/google/gemma-2-9b-it,system1,4,0,y_arrestedafter2002,False,YES,78.0,False,1.2024459838867188,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:21.429371
+openrouter/google/gemma-2-9b-it,system1,76,0,y_arrestedafter2002,False,YES,72.0,False,0.5429391860961914,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:22.632814
+openrouter/google/gemma-2-9b-it,system1,77,0,y_arrestedafter2002,True,YES,78.0,True,0.5690841674804688,263,26,289,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:23.176178
+openrouter/google/gemma-2-9b-it,system1,12,0,y_arrestedafter2002,False,YES,78.0,False,1.2216968536376953,272,27,299,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```
+",,2026-02-27T19:37:23.745695
+openrouter/google/gemma-2-9b-it,system1,31,0,y_arrestedafter2002,True,YES,78.0,True,0.4968280792236328,266,26,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:24.969310
+openrouter/google/gemma-2-9b-it,system1,55,0,y_arrestedafter2002,False,YES,87.0,False,0.5048551559448242,273,26,299,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 87
+}
+```",,2026-02-27T19:37:25.466494
+openrouter/google/gemma-2-9b-it,system1,88,0,y_arrestedafter2002,True,YES,62.0,True,0.5312371253967285,266,26,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:25.971838
+openrouter/google/gemma-2-9b-it,system1,26,0,y_arrestedafter2002,False,YES,72.0,False,0.6658837795257568,274,26,300,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:26.503673
+openrouter/google/gemma-2-9b-it,system1,42,0,y_arrestedafter2002,True,YES,68.0,True,1.4045078754425049,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:27.169942
+openrouter/google/gemma-2-9b-it,system1,69,0,y_arrestedafter2002,False,YES,62.0,False,0.4945340156555176,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:28.574906
+openrouter/google/gemma-2-9b-it,system1,15,0,y_arrestedafter2002,False,YES,68.0,False,0.5295002460479736,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:29.070026
+openrouter/google/gemma-2-9b-it,system1,40,0,y_arrestedafter2002,False,YES,62.0,False,0.8208849430084229,257,27,284,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```
+",,2026-02-27T19:37:29.600082
+openrouter/google/gemma-2-9b-it,system1,96,0,y_arrestedafter2002,False,YES,72.0,False,1.4294750690460205,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:30.421470
+openrouter/google/gemma-2-9b-it,system1,9,0,y_arrestedafter2002,False,YES,62.0,False,0.5323991775512695,262,26,288,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:31.851282
+openrouter/google/gemma-2-9b-it,system1,72,0,y_arrestedafter2002,False,YES,62.0,False,0.6650068759918213,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:32.386989
+openrouter/google/gemma-2-9b-it,system1,11,0,y_arrestedafter2002,False,YES,72.0,False,0.48655200004577637,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:33.052662
+openrouter/google/gemma-2-9b-it,system1,47,0,y_arrestedafter2002,True,YES,78.0,True,1.3079140186309814,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:33.539815
+openrouter/google/gemma-2-9b-it,system1,85,0,y_arrestedafter2002,False,YES,68.0,False,0.5220298767089844,262,26,288,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:34.848447
+openrouter/google/gemma-2-9b-it,system1,28,0,y_arrestedafter2002,True,YES,78.0,True,0.5864810943603516,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:35.371002
+openrouter/google/gemma-2-9b-it,system1,93,0,y_arrestedafter2002,True,YES,72.0,True,0.48372507095336914,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:35.957880
+openrouter/google/gemma-2-9b-it,system1,5,0,y_arrestedafter2002,False,NO,35.0,True,0.831629753112793,266,26,292,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}
+```",,2026-02-27T19:37:36.442113
+openrouter/google/gemma-2-9b-it,system1,66,0,y_arrestedafter2002,True,YES,78.0,True,1.8889169692993164,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:37.274328
+openrouter/google/gemma-2-9b-it,system1,65,0,y_arrestedafter2002,False,YES,72.0,False,1.7582950592041016,269,26,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:39.163683
+openrouter/google/gemma-2-9b-it,system1,35,0,y_arrestedafter2002,True,YES,72.0,True,1.317115068435669,271,26,297,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:40.922416
+openrouter/google/gemma-2-9b-it,system1,16,0,y_arrestedafter2002,False,YES,62.0,False,0.713386058807373,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:42.241468
+openrouter/google/gemma-2-9b-it,system1,49,0,y_arrestedafter2002,True,YES,68.0,True,0.4773569107055664,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:42.955272
+openrouter/google/gemma-2-9b-it,system1,34,0,y_arrestedafter2002,True,YES,78.0,True,1.1394720077514648,266,27,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```
+",,2026-02-27T19:37:43.433596
+openrouter/google/gemma-2-9b-it,system1,7,0,y_arrestedafter2002,True,YES,72.0,True,0.4932973384857178,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:44.573686
+openrouter/google/gemma-2-9b-it,system1,95,0,y_arrestedafter2002,False,NO,42.0,True,1.286099910736084,257,26,283,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}
+```",,2026-02-27T19:37:45.067518
+openrouter/google/gemma-2-9b-it,system1,27,0,y_arrestedafter2002,False,YES,62.0,False,0.47428083419799805,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:46.354125
+openrouter/google/gemma-2-9b-it,system1,19,0,y_arrestedafter2002,False,YES,78.0,False,0.4977388381958008,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:46.828946
+openrouter/google/gemma-2-9b-it,system1,81,0,y_arrestedafter2002,True,YES,72.0,True,0.5072031021118164,273,27,300,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```
+",,2026-02-27T19:37:47.327248
+openrouter/google/gemma-2-9b-it,system1,25,0,y_arrestedafter2002,True,YES,72.0,True,0.7936890125274658,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:47.834986
+openrouter/google/gemma-2-9b-it,system1,62,0,y_arrestedafter2002,False,NO,42.0,True,0.5568270683288574,269,26,295,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 42
+}
+```",,2026-02-27T19:37:48.629191
+openrouter/google/gemma-2-9b-it,system1,13,0,y_arrestedafter2002,False,YES,72.0,False,0.5615177154541016,269,26,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:49.187772
+openrouter/google/gemma-2-9b-it,system1,24,0,y_arrestedafter2002,False,NO,35.0,True,0.5315859317779541,267,26,293,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}
+```",,2026-02-27T19:37:49.749814
+openrouter/google/gemma-2-9b-it,system1,3,0,y_arrestedafter2002,False,YES,72.0,False,0.5438709259033203,268,27,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```
+",,2026-02-27T19:37:50.281982
+openrouter/google/gemma-2-9b-it,system1,17,0,y_arrestedafter2002,False,YES,72.0,False,1.713162899017334,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:50.826477
+openrouter/google/gemma-2-9b-it,system1,38,0,y_arrestedafter2002,True,YES,78.0,True,0.5076470375061035,269,26,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:52.540243
+openrouter/google/gemma-2-9b-it,system1,8,0,y_arrestedafter2002,False,YES,82.0,False,0.499863862991333,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}
+```",,2026-02-27T19:37:53.048466
+openrouter/google/gemma-2-9b-it,system1,78,0,y_arrestedafter2002,False,YES,62.0,False,0.5489718914031982,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:53.548898
+openrouter/google/gemma-2-9b-it,system1,6,0,y_arrestedafter2002,False,YES,68.0,False,1.3092331886291504,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:37:54.098497
+openrouter/google/gemma-2-9b-it,system1,64,0,y_arrestedafter2002,False,NO,35.0,True,0.5828447341918945,260,26,286,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}
+```",,2026-02-27T19:37:55.408284
+openrouter/google/gemma-2-9b-it,system1,36,0,y_arrestedafter2002,False,YES,62.0,False,0.5069680213928223,273,26,299,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:55.991717
+openrouter/google/gemma-2-9b-it,system1,89,0,y_arrestedafter2002,False,YES,62.0,False,0.5687751770019531,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:56.500994
+openrouter/google/gemma-2-9b-it,system1,56,0,y_arrestedafter2002,False,YES,62.0,False,0.45972299575805664,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:57.070388
+openrouter/google/gemma-2-9b-it,system1,99,0,y_arrestedafter2002,True,YES,62.0,True,0.49381279945373535,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:37:57.530616
+openrouter/google/gemma-2-9b-it,system1,54,0,y_arrestedafter2002,True,YES,78.0,True,0.529167890548706,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:37:58.025048
+openrouter/google/gemma-2-9b-it,system1,43,0,y_arrestedafter2002,True,YES,72.0,True,0.528127908706665,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:58.554718
+openrouter/google/gemma-2-9b-it,system1,50,0,y_arrestedafter2002,True,YES,72.0,True,0.9640960693359375,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:37:59.083385
+openrouter/google/gemma-2-9b-it,system1,67,0,y_arrestedafter2002,False,YES,62.0,False,0.5176408290863037,266,26,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:00.047976
+openrouter/google/gemma-2-9b-it,system1,46,0,y_arrestedafter2002,False,YES,72.0,False,0.5607569217681885,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:00.566030
+openrouter/google/gemma-2-9b-it,system1,68,0,y_arrestedafter2002,True,YES,68.0,True,0.9502749443054199,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:38:01.139491
+openrouter/google/gemma-2-9b-it,system1,61,0,y_arrestedafter2002,False,YES,62.0,False,0.4988677501678467,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:02.091261
+openrouter/google/gemma-2-9b-it,system1,97,0,y_arrestedafter2002,False,YES,72.0,False,0.6388862133026123,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:02.591902
+openrouter/google/gemma-2-9b-it,system1,79,0,y_arrestedafter2002,False,YES,72.0,False,1.799144983291626,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:03.231367
+openrouter/google/gemma-2-9b-it,system1,41,0,y_arrestedafter2002,False,YES,72.0,False,0.515125036239624,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:05.031001
+openrouter/google/gemma-2-9b-it,system1,58,0,y_arrestedafter2002,True,YES,82.0,True,0.5930228233337402,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}
+```",,2026-02-27T19:38:05.547433
+openrouter/google/gemma-2-9b-it,system1,48,0,y_arrestedafter2002,False,YES,62.0,False,1.24196195602417,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:06.141135
+openrouter/google/gemma-2-9b-it,system1,98,0,y_arrestedafter2002,True,YES,68.0,True,0.5688400268554688,269,26,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:38:07.383454
+openrouter/google/gemma-2-9b-it,system1,57,0,y_arrestedafter2002,True,YES,82.0,True,0.5598530769348145,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 82
+}
+```",,2026-02-27T19:38:07.952672
+openrouter/google/gemma-2-9b-it,system1,75,0,y_arrestedafter2002,False,YES,78.0,False,0.5253629684448242,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:38:08.513091
+openrouter/google/gemma-2-9b-it,system1,32,0,y_arrestedafter2002,False,YES,68.0,False,0.635418176651001,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:38:09.039025
+openrouter/google/gemma-2-9b-it,system1,94,0,y_arrestedafter2002,False,YES,78.0,False,1.379560947418213,268,27,295,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```
+",,2026-02-27T19:38:09.674949
+openrouter/google/gemma-2-9b-it,system1,59,0,y_arrestedafter2002,False,YES,72.0,False,0.5634503364562988,266,27,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```
+",,2026-02-27T19:38:11.056235
+openrouter/google/gemma-2-9b-it,system1,63,0,y_arrestedafter2002,False,YES,78.0,False,1.032607078552246,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:38:11.620229
+openrouter/google/gemma-2-9b-it,system1,84,0,y_arrestedafter2002,True,YES,68.0,True,0.7663087844848633,263,26,289,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 68
+}
+```",,2026-02-27T19:38:12.653218
+openrouter/google/gemma-2-9b-it,system1,37,0,y_arrestedafter2002,False,YES,62.0,False,1.3643131256103516,264,26,290,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:13.420066
+openrouter/google/gemma-2-9b-it,system1,29,0,y_arrestedafter2002,False,YES,62.0,False,0.5877759456634521,268,26,294,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:14.784857
+openrouter/google/gemma-2-9b-it,system1,1,0,y_arrestedafter2002,False,YES,78.0,False,1.6893348693847656,267,26,293,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:38:15.373219
+openrouter/google/gemma-2-9b-it,system1,52,0,y_arrestedafter2002,True,YES,72.0,True,0.7578780651092529,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:17.063849
+openrouter/google/gemma-2-9b-it,system1,21,0,y_arrestedafter2002,True,YES,72.0,True,0.5505621433258057,263,26,289,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:17.822332
+openrouter/google/gemma-2-9b-it,system1,2,0,y_arrestedafter2002,True,YES,72.0,True,0.565619945526123,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:18.373337
+openrouter/google/gemma-2-9b-it,system1,23,0,y_arrestedafter2002,True,YES,72.0,True,0.49031901359558105,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:18.939215
+openrouter/google/gemma-2-9b-it,system1,87,0,y_arrestedafter2002,False,YES,72.0,False,0.45112013816833496,265,26,291,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:19.430138
+openrouter/google/gemma-2-9b-it,system1,91,0,y_arrestedafter2002,False,YES,78.0,False,0.4026010036468506,270,26,296,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 78
+}
+```",,2026-02-27T19:38:19.881802
+openrouter/google/gemma-2-9b-it,system1,74,0,y_arrestedafter2002,False,YES,72.0,False,1.7915151119232178,276,26,302,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:20.285004
+openrouter/google/gemma-2-9b-it,system1,86,0,y_arrestedafter2002,True,YES,72.0,True,1.7730982303619385,263,26,289,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:22.077044
+openrouter/google/gemma-2-9b-it,system1,82,0,y_arrestedafter2002,True,YES,72.0,True,0.7698192596435547,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:23.850604
+openrouter/google/gemma-2-9b-it,system1,20,0,y_arrestedafter2002,True,YES,72.0,True,1.284637212753296,266,26,292,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:24.620955
+openrouter/google/gemma-2-9b-it,system1,60,0,y_arrestedafter2002,False,YES,72.0,False,0.4866490364074707,262,26,288,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:25.905930
+openrouter/google/gemma-2-9b-it,system1,71,0,y_arrestedafter2002,False,YES,72.0,False,0.5559310913085938,272,26,298,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 72
+}
+```",,2026-02-27T19:38:26.393019
+openrouter/google/gemma-2-9b-it,system1,14,0,y_arrestedafter2002,True,NO,35.0,False,0.43892717361450195,263,26,289,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 35
+}
+```",,2026-02-27T19:38:26.949525
+openrouter/google/gemma-2-9b-it,system1,92,0,y_arrestedafter2002,True,YES,62.0,True,0.9156279563903809,256,27,283,"```json
+{
+  ""prediction"": ""YES"",
+  ""confidence"": 62
+}
+```
+",,2026-02-27T19:38:27.388756
+openrouter/google/gemma-2-9b-it,system1,51,0,y_arrestedafter2002,False,NO,62.0,True,0.42992401123046875,269,26,295,"```json
+{
+  ""prediction"": ""NO"",
+  ""confidence"": 62
+}
+```",,2026-02-27T19:38:28.306274

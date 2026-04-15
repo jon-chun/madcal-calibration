@@ -1,0 +1,23 @@
+# OpenRouter OSS models for sign test expansion (Option A)
+# NLSY97-only: maximizes statistical power on highest-effect dataset
+# 4 models from different families for diversity
+signtest_oss_models:
+  - model_id: "openrouter/meta-llama/llama-3.1-8b-instruct"
+    display_name: "Llama 3.1 8B"
+    provider: "openrouter"
+    max_tokens: 1024
+
+  - model_id: "openrouter/qwen/qwen-2.5-7b-instruct"
+    display_name: "Qwen 2.5 7B"
+    provider: "openrouter"
+    max_tokens: 1024
+
+  - model_id: "openrouter/microsoft/phi-4"
+    display_name: "Phi-4 14B"
+    provider: "openrouter"
+    max_tokens: 1024
+
+  - model_id: "openrouter/google/gemma-2-9b-it"
+    display_name: "Gemma 2 9B"
+    provider: "openrouter"
+    max_tokens: 1024

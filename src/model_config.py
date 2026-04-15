@@ -97,6 +97,29 @@ def load_remote_oss_models_from_yaml() -> List[ModelSpec]:
     ]
 
 
+def _load_yaml_section_from(
+    filename: str, section: str, default_provider: str = "openrouter"
+) -> List[ModelSpec]:
+    """Load a named section from an arbitrary YAML config file."""
+    yaml_path = CONFIGS_DIR / filename
+    if not yaml_path.exists():
+        raise FileNotFoundError(f"Config not found: {yaml_path}")
+
+    with open(yaml_path) as f:
+        data = yaml.safe_load(f)
+
+    models = data.get(section, [])
+    return [
+        ModelSpec(
+            model_id=m["model_id"],
+            display_name=m.get("display_name", m["model_id"]),
+            provider=m.get("provider", default_provider),
+            max_tokens=m.get("max_tokens", 1024),
+        )
+        for m in models
+    ]
+
+
 def _load_yaml_section(section: str, default_provider: str = "openrouter") -> List[ModelSpec]:
     """Load a named section from config_commercial_models.yaml."""
     yaml_path = CONFIGS_DIR / "config_commercial_models.yaml"
@@ -128,6 +151,7 @@ def get_model_list(ensemble: str) -> List[ModelSpec]:
       "openrouter-oss"— 5 OSS models only on OpenRouter
       "split-oss"     — all 10 split across Fireworks + OpenRouter
       "all-remote"    — commercial + remote-oss combined
+      "signtest-oss"  — 4 OSS models for sign test expansion (NLSY97)
       "size", "oss", "reasoning", "all" — Ollama YAML ensembles
     Otherwise treats input as comma-separated model IDs.
     """
@@ -149,6 +173,11 @@ def get_model_list(ensemble: str) -> List[ModelSpec]:
 
     if ensemble == "all-remote":
         return load_commercial_models_from_yaml() + load_remote_oss_models_from_yaml()
+
+    if ensemble == "signtest-oss":
+        return _load_yaml_section_from(
+            "config_signtest_oss.yaml", "signtest_oss_models", "openrouter"
+        )
 
     # Ollama YAML ensembles
     ollama_ensembles = {"size", "oss", "reasoning", "all"}

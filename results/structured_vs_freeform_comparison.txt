@@ -1,0 +1,12 @@
+Model                                          Adv BRD  FF BRD  Winner      
+------------------------------------------------------------------------------
+openrouter/google/gemma-2-9b-it                  0.100   0.267  adversarial
+openrouter/meta-llama/llama-3.1-8b-instruct      0.303   0.413  adversarial
+openrouter/microsoft/phi-4                       0.040   0.443  adversarial
+openrouter/qwen/qwen-2.5-7b-instruct             0.250   0.073  free-form
+
+Adversarial wins: 3/4
+Free-form wins:   1/4
+
+Conclusion: Adversarial role structure improves calibration
+beyond generic multi-agent interaction.

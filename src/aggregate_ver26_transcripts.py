@@ -27,6 +27,19 @@ DATASET_TARGET = {
     "credit_default": "default_payment_next_month",
 }
 
+# Reverse mapping: cleaned directory name -> original model ID.
+# clean_model_name() is lossy (destroys /, -, .), so we maintain
+# explicit mappings for models where heuristic reconstruction fails.
+DIR_TO_MODEL = {
+    # OpenRouter OSS models
+    "openrouter_meta_llama_llama_3_1_8b_instruct": "openrouter/meta-llama/llama-3.1-8b-instruct",
+    "openrouter_qwen_qwen_2_5_7b_instruct": "openrouter/qwen/qwen-2.5-7b-instruct",
+    "openrouter_microsoft_phi_4": "openrouter/microsoft/phi-4",
+    "openrouter_google_gemma_2_9b_it": "openrouter/google/gemma-2-9b-it",
+    # xAI
+    "xai_grok_4_1_fast_non_reasoning_latest": "xai/grok-4.1-fast-non-reasoning-latest",
+}
+
 
 def parse_transcript(json_path: Path, model_name: str, dataset: str) -> dict | None:
     """Parse a single transcript JSON and return a flat dict."""
@@ -94,8 +107,10 @@ def main():
         # gpt_4_1_mini -> gpt-4.1-mini
         dir_name = model_dir.name
 
-        # Heuristic model name reconstruction
-        if dir_name == "gpt_4o_mini":
+        # Model name reconstruction: use explicit mapping first, then heuristics
+        if dir_name in DIR_TO_MODEL:
+            model_name = DIR_TO_MODEL[dir_name]
+        elif dir_name == "gpt_4o_mini":
             model_name = "gpt-4o-mini"
         elif dir_name == "gpt_4_1_mini":
             model_name = "gpt-4.1-mini"

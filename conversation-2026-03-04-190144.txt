@@ -1,0 +1,7 @@
+
+ ▐▛███▜▌   Claude Code v2.1.68
+▝▜█████▛▘  Opus 4.6 · Claude Max
+  ▘▘ ▝▝    ~/code/agenticsimlaw
+
+❯ /status 
+  ⎿  Status dialog dismissed

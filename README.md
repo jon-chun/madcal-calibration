@@ -166,4 +166,4 @@ Only derived vignettes are included. Full NLSY97 data requires a license from th
 
 ## License
 
-CC BY 4.0
+MIT License
