@@ -1,6 +1,6 @@
 # Adversarial Role Structure as a Calibration Mechanism in Multi-Agent LLM Systems
 
-Replication package for the TMLR 2026 submission. This repository contains all code, data, experiment results, and reproducibility scripts needed to replicate the findings reported in the paper.
+Replication package for the NeurIPS 2026 submission. This repository contains all code, data, experiment results, and reproducibility scripts needed to replicate the findings reported in the paper.
 
 ## Environment Setup
 
@@ -107,7 +107,7 @@ Output: `figures/*.pdf`
 ## Directory Structure
 
 ```
-agenticsimlaw/
+madcal-calibration/
 ├── configs/              # Model ensemble YAML configurations
 ├── data/                 # Datasets and pre-computed feature subsets
 │   ├── sample_vignettes.csv          # NLSY97 30-case base sample
