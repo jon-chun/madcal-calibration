@@ -1,0 +1,311 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "equivalentProperty": "schema:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "Dataset",
+  "name": "MADCal-replication-package",
+  "description": "Replication package for the NeurIPS 2026 paper 'Adversarial Role Structure as a Calibration Mechanism in Multi-Agent LLM Systems: A Sharp Boundary at Reasoning-Class Models.' Contains natural-language vignette serializations of three publicly available tabular datasets (NLSY97, ProPublica COMPAS, UCI Credit Default), aggregated MADCal debate outcomes (10,191 rows across 10 CSVs covering 7 LLMs and the cooperative / free-form ablations), and aggregated StandardLLM zero-shot / CoT / 30-shot-CoT outcomes for the broader 19-model evaluation. Reproduces every quantitative claim, table, and figure in the paper from the released CSV outcomes.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://anonymous.4open.science/r/madcal-calibration-E8A2/",
+  "version": "1.0.0",
+  "datePublished": "2026-05-06",
+  "keywords": [
+    "multi-agent LLM debate",
+    "calibration",
+    "tabular prediction",
+    "role-structured debate",
+    "recidivism prediction",
+    "credit default prediction",
+    "fairness",
+    "test-time compute"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Anonymous (NeurIPS 2026 double-blind submission)"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Anonymous (NeurIPS 2026 double-blind submission)"
+  },
+  "isLiveDataset": false,
+  "rai:dataCollection": "Vignettes were derived from the public NLSY97 (Bureau of Labor Statistics public-use file), ProPublica COMPAS (Angwin et al., 2016), and UCI Credit Default (Yeh and Lien, 2009) source releases. LLM outcomes were generated between January 2026 and February 2026 by calling commercial provider APIs (OpenAI, Google, xAI, Anthropic via OpenRouter, Fireworks) and by running 4-bit-quantized open-source models locally via Ollama 0.5.7 on a Ryzen 9 / dual NVIDIA 3090 / CUDA 12.6 / Python 3.10 host. All outputs were logged with API metadata (timestamps, token counts, model version strings).",
+  "rai:dataPreprocessingProtocol": "Top-10 features per dataset were selected via Leave-One-Feature-Out (LOFO) importance, then serialized into natural-language vignettes following Hegselmann et al. (2023). LLM responses were parsed via strict JSON parsing with a regex fallback; unrecoverable outputs are recorded as 'NoDecision' and excluded from headline metrics.",
+  "rai:dataAnnotationProtocol": "No new human annotation was performed. Ground-truth labels are inherited from the source datasets (3-year rearrest for NLSY97, 2-year recidivism for COMPAS, next-month default for UCI Credit Default).",
+  "rai:dataAnnotationAnalysis": "Not applicable: no new annotation.",
+  "rai:dataReleaseMaintenancePlan": "v1.0 corresponds to the NeurIPS 2026 submission. Updates that change quantitative results in the paper will be documented in CHANGELOG.md and tagged as new releases. Errata, if needed, will be linked from the README.",
+  "rai:personalSensitiveInformation": "None. All three source datasets are publicly available and de-identified at the source. The released vignettes contain the same de-identified representations and add no new personal information. Demographic features (race, sex, age) are inherited from the source datasets and are documented; the release explicitly carries a non-deployment declaration (Section 6 of the paper) and is licensed for research use only.",
+  "rai:biasAnalysis": "Source datasets contain known fairness concerns: COMPAS exhibits significant racial disparities (Angwin et al., 2016) and impossibility results prove that calibration and equal error rates across demographic groups cannot be simultaneously achieved under unequal base rates (Chouldechova 2017; Kleinberg 2017; Corbett-Davies 2023). NLSY97's target is rearrest, which reflects police contact as much as individual behavior in populations subject to differential policing (Dressel & Farid, 2018). The MADCal paper's disparate-impact analysis (Section 5) reports per-method false-positive rates stratified by race for COMPAS; the released aggregate CSVs include the per-case predictions needed to reproduce that analysis. The 7-model set in the released debate aggregates is convenience-sampled from the May 2026 commercial-frontier ensemble plus four small open-source models; this is not a representative sample of all LLMs.",
+  "rai:dataUseCases": [
+    "Replication of the MADCal paper's calibration findings, sign test, and ablations.",
+    "Methodological work on multi-agent LLM debate orchestration, prompt design, or judge-confidence calibration.",
+    "Comparative studies of test-time compute strategies (CoT, self-consistency, structured debate) on tabular tasks.",
+    "Replication or extension of the disparate-impact analysis (paper Appendix K)."
+  ],
+  "rai:dataLimitation": "The release contains aggregated debate outcomes (one row per debate run with judge prediction, confidence, and opinion-trajectory length); the underlying multi-turn conversation transcripts are not redistributed. Commercial API model versions change continually; reproductions on newer provider versions will not match the released numbers byte-for-byte but should reproduce the directional findings. The 100/200-case COMPAS / Credit Default subsamples were drawn for cost containment and may not represent the full distributional characteristics of the source datasets. Open-source models are 4-bit quantized via Ollama; quantization noise is not separately characterized.",
+  "rai:dataSocialImpact": "Positive: enables researchers to evaluate role-structured multi-agent debate as a calibration mechanism for LLMs on tabular prediction. Negative-impact concern: the released vignettes encode demographic and criminal-justice features that, if used in operational deployment, could amplify documented racial disparities in recidivism prediction (Angwin 2016; Dressel 2018; Corbett-Davies 2023). The paper's Broader Impact statement and the disparate-impact analysis explicitly disclaim operational deployment and provide quantitative grounding for the disparity concern.",
+  "citation": "Anonymous. Adversarial Role Structure as a Calibration Mechanism in Multi-Agent LLM Systems: A Sharp Boundary at Reasoning-Class Models. NeurIPS 2026 (under review).",
+  "citeAs": "@inproceedings{anonymous2026madcal,\n  title  = {Adversarial Role Structure as a Calibration Mechanism in Multi-Agent {LLM} Systems: A Sharp Boundary at Reasoning-Class Models},\n  author = {Anonymous},\n  booktitle = {Proceedings of NeurIPS 2026 (under review)},\n  year   = {2026}\n}",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "github-mirror",
+      "name": "github-mirror",
+      "description": "Anonymous mirror of the replication package for the NeurIPS 2026 review period.",
+      "contentUrl": "https://anonymous.4open.science/r/madcal-calibration-E8A2/",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "vignette-csvs",
+      "name": "vignette-csvs",
+      "description": "Natural-language vignette CSVs derived from NLSY97, ProPublica COMPAS, and UCI Credit Default. Each row is one case; each contains a serialized natural-language description of the top-10 LOFO features plus the ground-truth target.",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "data/*_vignettes*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "source-csvs",
+      "name": "source-csvs",
+      "description": "Full filtered source CSVs for the three datasets prior to subsampling (1,412 NLSY97 / 6,172 COMPAS / 30,000 Credit Default).",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "data/*_full*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "topn-feature-csvs",
+      "name": "topn-feature-csvs",
+      "description": "LOFO feature-selection results across 5 algorithms × top-5 / top-10 variants (NLSY97 only).",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "data/topn_datasets/*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "debate-aggregate-csvs",
+      "name": "debate-aggregate-csvs",
+      "description": "Aggregated MADCal debate outcomes. Each row records a single debate run: model_name, case_id, repeat_id, dataset, prediction (YES/NO/NoDecision), confidence (0-100), ground_truth, n_judge_opinions. 10,191 rows total across 10 CSVs covering the 100/200-case headline experiments and the cooperative / free-form ablations (paper Appendix I, C7 / C8).",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "results/{debate,cooperative,freeform}_aggregate_*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "standardllm-csvs",
+      "name": "standardllm-csvs",
+      "description": "Aggregated StandardLLM (zero-shot / CoT / 30-shot CoT) outcomes across the 16-model open-source ensemble plus commercial models. Includes the K=59 self-consistency runs used for the matched-compute comparison in Section 4.",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "results/standardllm/*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "ablation-csvs",
+      "name": "ablation-csvs",
+      "description": "Outcome CSVs for the random-flip (C6), judge-opinion-evolution, BRD figure data, and accuracy / F1 leaderboard tables.",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "results/{ablation,judge,accuracy,dataset,bridge,comparison,structured}*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "reproduction-scripts",
+      "name": "reproduction-scripts",
+      "description": "Python reproduction scripts plus the orchestrator reproduce_all.sh.",
+      "containedIn": {
+        "@id": "github-mirror"
+      },
+      "encodingFormat": "text/x-python",
+      "includes": "scripts/*.py"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "debate-outcome",
+      "name": "debate-outcome",
+      "description": "One MADCal debate-outcome record. The release contains 10,191 such records across the 10 debate-aggregate CSVs.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/model_name",
+          "name": "model_name",
+          "description": "Provider/model identifier of the model playing all three roles (prosecutor, defense, judge) in the debate.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "model_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/case_id",
+          "name": "case_id",
+          "description": "Integer index of the case within the source dataset.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "case_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/repeat_id",
+          "name": "repeat_id",
+          "description": "Repetition index for repeated runs of the same case at temperature T = 0.7.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "repeat_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/dataset",
+          "name": "dataset",
+          "description": "One of nlsy97, compas, credit_default.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "dataset"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/prediction",
+          "name": "prediction",
+          "description": "Judge agent's final prediction: YES, NO, or NoDecision (when the judge failed to produce parseable JSON).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "prediction"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/confidence",
+          "name": "confidence",
+          "description": "Judge agent's reported confidence (0-100). Empty when prediction = NoDecision.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "confidence"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/ground_truth",
+          "name": "ground_truth",
+          "description": "Binary ground-truth outcome from the source dataset (True / False).",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "ground_truth"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "debate-outcome/n_judge_opinions",
+          "name": "n_judge_opinions",
+          "description": "Number of judge belief updates recorded during the debate. Equal to 6 for a complete MADCal run; lower values indicate truncated runs (e.g., due to JSON malformation).",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileSet": {
+              "@id": "debate-aggregate-csvs"
+            },
+            "extract": {
+              "column": "n_judge_opinions"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
